@@ -1,21 +1,21 @@
-site_name: "Plantilla de talleres"
-site_author: "Aula de Software Libre <aulasoftwarelibre@uco.es>"
-site_description: "Plantilla para crear documentación de los talleres del aula"
-site_url: "https://github.com/aulasoftwarelibre/plantilla-talleres"
+site_name: 'Taller de JavaScript y TypeScript'
+site_author: 'Aula de Software Libre <aulasoftwarelibre@uco.es>'
+site_description: 'Taller acerca de JavaScript y TypeScript, sus características y ventajas'
+site_url: 'https://github.com/aulasoftwarelibre/taller-javascript-typescript'
 
-repo_name: "aulasoftwarelibre/plantilla-talleres"
-repo_url: "https://github.com/aulasoftwarelibre/plantilla-talleres"
+repo_name: 'aulasoftwarelibre/taller-javascript-typescript'
+repo_url: 'https://github.com/aulasoftwarelibre/taller-javacript-typescript'
 
 copyright: Copyleft - CC BY-NC 4.0 - Aula de Software Libre
 
 theme:
-  favicon: "images/logoasl.png"
+  favicon: 'images/logoasl.png'
   features:
     - navigation.instant
   icon:
     logo: material/git
-  name: "material"
-  language: "es"
+  name: 'material'
+  language: 'es'
   palette:
     scheme: slate
 
@@ -30,15 +30,15 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: "https://github.com/aulasoftwarelibre"
+      link: 'https://github.com/aulasoftwarelibre'
     - icon: fontawesome/brands/twitter
-      link: "https://twitter.com/aulasl"
+      link: 'https://twitter.com/aulasl'
     - icon: fontawesome/brands/facebook
-      link: "https://facebook.com/aulasl"
+      link: 'https://facebook.com/aulasl'
     - icon: fontawesome/brands/instagram
-      link: "https://instagram.com/aulasoftwarelibre"
+      link: 'https://instagram.com/aulasoftwarelibre'
     - icon: fontawesome/brands/youtube
-      link: "https://www.youtube.com/c/AulaSoftwareLibre"
+      link: 'https://www.youtube.com/c/AulaSoftwareLibre'
 
 markdown_extensions:
   - admonition: ~
@@ -56,5 +56,5 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 google_analytics:
-  - "UA-51754922-1"
-  - "auto"
+  - 'UA-51754922-1'
+  - 'auto'

@@ -1,3 +1,7 @@
 arrange:
   - index.md
-  - other.md
+  - introduccion.md
+  - diferencias.md
+  - proyecto.md
+  - tipado.md
+  - funcionalidades.md
