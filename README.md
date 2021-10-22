@@ -22,7 +22,7 @@ Una vez creado el repositorio siga las siguientes instrucciónes para configurar
 
 2º Accede a la carpeta desde la consola:
 
-    cd taller-de-introduccion-a-linux/
+    cd taller-javacript-typescript/
 
 3º Configura el entorno para ello instalamos pip un gestor de paquetes de python:
 
