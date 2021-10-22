@@ -11,8 +11,9 @@ El contenido del mismo es en parte de producción propia, en parte de otros manu
 - [Introducción](introduccion)
 - [Diferencias](diferencias)
 - [Creación de nuestro primer proyecto](proyecto)
-- [Tipado](tipado)
+- [Tipado: La gran ventaja](tipado)
 - [Funcionalidades adicionales](funcionalidades)
+- [Referencias](referencias)
 
 ## Agradecimientos
 
