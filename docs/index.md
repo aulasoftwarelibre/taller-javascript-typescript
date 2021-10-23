@@ -9,9 +9,9 @@ El contenido del mismo es en parte de producción propia, en parte de otros manu
 ## Contenido
 
 - [Introducción](introduccion)
-- [Diferencias](diferencias)
+- [Bases de JavaScript](javascript)
+- [TypeScript: Ventajas y diferencias](typescript)
 - [Creación de nuestro primer proyecto](proyecto)
-- [Tipado: La gran ventaja](tipado)
 - [Funcionalidades adicionales](funcionalidades)
 - [Referencias](referencias)
 

@@ -1,4 +1,4 @@
-# Diferencias
+# JavaScript
 
 Imaginemos el siguiente código JavaScript, donde accedemos a la propiedad `atlura` del objeto `persona`, la cual no existe. Vemos que JavaScript nos informa de que "puede que la propiedad atlura no exista" y es cuando ejecutamos el código cuando nos damos cuenta de que tenemos un error.
 

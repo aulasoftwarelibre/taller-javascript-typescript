@@ -1,8 +1,8 @@
 arrange:
   - index.md
   - introduccion.md
-  - diferencias.md
+  - javascript.md
+  - typescript.md
   - proyecto.md
-  - tipado.md
   - funcionalidades.md
   - referencias.md
