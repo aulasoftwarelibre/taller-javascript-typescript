@@ -1,3 +1,11 @@
 # TypeScript
 
-Una de las carácterísticas más peculiares de JavaScript es que es un lenguaje con un tipado débil. Para entender esto, pongamos el ejemplo de C++. En este lenguaje, al declarar una variable le estamos infiriendo el tipo de dato automáticamente. Por ejemplo, al escribir `int a` estamos **declarando** la variable `a` y a su vez le estamos dando un **tipo** (entero). Por el contrario, en JavaScript esto no ocurre
+<!-- Imaginemos el siguiente código JavaScript, donde accedemos a la propiedad `atlura` del objeto `persona`, la cual no existe. Vemos que JavaScript nos informa de que "puede que la propiedad atlura no exista" y es cuando ejecutamos el código cuando nos damos cuenta de que tenemos un error.
+
+![Objeto en js](images/diferencias/objetojs.png)
+
+![Salida objeto en js](images/diferencias/salidaobjetojs.png)
+
+En TypeScript esto es totalmente distinto, ya que nos informa de antemano de que tenemos un error, no haciendo falta ejecutar el código para darnos cuenta.
+
+![Objeto en ts](images/diferencias/objetots.png) -->
