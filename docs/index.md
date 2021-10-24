@@ -12,7 +12,6 @@ El contenido del mismo es en parte de producción propia, en parte de otros manu
 - [Bases de JavaScript](javascript)
 - [TypeScript: Ventajas y diferencias](typescript)
 - [Creación de nuestro primer proyecto](proyecto)
-- [Funcionalidades adicionales](funcionalidades)
 - [Referencias](referencias)
 
 ## Agradecimientos
