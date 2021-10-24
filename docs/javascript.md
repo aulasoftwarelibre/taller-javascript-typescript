@@ -46,7 +46,7 @@ Este operador nos ayuda a comparar datos como el operador `==`. ¿Cuál es la di
 
 ![Triple igual](images/javascript/tripleigual.png)
 
-Algunos operadores también los podemos utilizar para trabajar con cadenas, como por ejemplo el operador `+`. Podemos concatenar cadenas con variables utilizando este operador, aunque esto no es recomendable. Para ello, se utilizan las comillas ` `` `, las cuales nos permiten concatenar variables con cadenas utilizando `${}`. Esta última forma es mucho mejor que concatenar cadenas con el signo de la suma, ya que no tenemos que preocuparnos de abrir y cerrar comillas constantemente.
+Algunos operadores también los podemos utilizar para trabajar con cadenas, como por ejemplo el operador `+`. Podemos concatenar cadenas con variables utilizando este operador, aunque esto no es recomendable. Para ello, se utilizan las comillas ` `` `, también llamadas **plantillas literales**. Estas nos permiten incrustar expresiones y variables dentro de nuestras cadenas, además de poder utilizar cadenas de más de una línea, entre otras cosas. Para añadir a nuestra cadena una variable, hacemos uso de un marcador, representado con `${variable}`. Esta última forma es mucho mejor que concatenar cadenas con el signo de la suma, ya que nos aporta mucha más flexibilidad.
 
 ![Concatenar cadenas](images/javascript/concatenar.png)
 
@@ -56,8 +56,22 @@ La sintaxis tanto de los condicionales como de los bucles en este lenguaje es ba
 
 ![Bucles y condicionales](images/javascript/bucles-condicionales.png)
 
-Sin embargo, existe un tipo de bucle que no todos los lenguajes poseen y que puede resultar muy interesante, el cual nos ayuda a recorrer elementos dentro de, por ejemplo, un array. Esto se conseguiría haciendo uso de la palabra reservada `in`. Con el ejemplo que se muestra a continuación, mostraríamos por pantalla uno a uno los elementos del array `array`.
+Sin embargo, existe un tipo de bucle que no todos los lenguajes poseen y que puede resultar muy interesante, el cual nos ayuda a recorrer elementos dentro de, por ejemplo, un array. Para ello, hacemos uso de la palabra reservada `in`. Con el ejemplo que se muestra a continuación, mostraríamos por pantalla uno a uno los elementos del array `array`.
 
 ![For in](images/javascript/forin.png)
 
 ## Funciones
+
+En JavaScript, las funciones se declaran con la palabra clave `function`. Al igual que con las variables, declaramos la función pero no el tipo de dato que esta va a devolver.
+
+![Función en JavaScript](images/javascript/funcionjs.png)
+
+También, este lenguaje nos permite guardar estas funciones en variables, las cuales podemos utilizar posteriormente en el código para llamar a la función. El código que se muestra a continuación muestra 2 formas identicas de declarar una función `add`.
+
+![Función en variable](images/javascript/funcionvariablejs.png)
+
+Hay infinidad de características de las funciones en JavaScript que no veremos en este taller ya que son más específicas (palabra clave `arguments`, ámbito de las variables, funciones anidadas, parámetros por defecto, etc.). Lo que sí veremos son las cada vez más usadas **funciones flecha**.
+
+Estas funciones poseen una sintaxis que puede ser un poco confusa al principio, pero se utilizan de la misma forma y nos ayudan a escribir menos código de una forma más intuitiva. Consisten en eliminar la palabra clave `function`, haciendo uso de la flecha `=>`. En el ejemplo de abajo, también se muestra el caso en el que nuestra función simplemente devuelve un valor, por lo que podemos expresar la función en una sola línea y sin `return`.
+
+![Función flecha](images/javascript/funcionflechajs.png)
