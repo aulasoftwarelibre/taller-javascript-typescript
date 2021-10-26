@@ -8,7 +8,7 @@ Debemos tener instalado TypeScript para poder trabajar con él. Para ello debemo
 
     $ sudo apt update
 
-    $ sudo apt install node
+    $ sudo apt install nodejs
 
     $ sudo apt install npm
 
